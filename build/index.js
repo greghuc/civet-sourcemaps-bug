@@ -21,6 +21,12 @@ function v4() {
   return out;
 }
 
+// node_modules/civet-pkg/lib/math.civet
+function meaningOfLife() {
+  return 42;
+}
+
 // unplugin-civet:/Users/greghuc/workspace/civet-sourcemaps-bug/src/index.civet.jsx
 console.log(`id: ${v4()}`);
+console.log(`meaning of life: ${meaningOfLife()}`);
 //# sourceMappingURL=index.js.map
