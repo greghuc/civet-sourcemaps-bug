@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "watch": "node esbuild.config.js --watch",
+    "start": "node build/index.js"
+  },
+  "devDependencies": {
+    "@danielx/civet": "^0.10.5",
+    "esbuild": "^0.25.9"
+  },
+  "dependencies": {
+    "@lukeed/uuid": "^2.0.1"
+  }
+}
